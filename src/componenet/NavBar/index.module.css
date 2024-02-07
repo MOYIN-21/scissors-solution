@@ -1,0 +1,19 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.midsection{
+    display: flex;
+    gap: 41px;
+}
+
+.btn{
+    display: flex;
+    gap: 16px;
+}
+text{
+    background: #0065FE;
+  
+}
