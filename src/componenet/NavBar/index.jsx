@@ -10,18 +10,18 @@ const NavBar = () =>{
                 <img src={logo} alt="web logo" />
             </div>
             <div className={style.midsection}>
-            <p>My URLS</p>
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>Analytics</p>
-            <p>FAQS</p>
+                <p>My URLS</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Analytics</p>
+                <p>FAQS</p>
             </div>
 
             <div className={style.btn}>
-                <GhostButton text="Log in"/>
+                <GhostButton text="Log in" style={{color:"blue"}} />
                 <FilledButton text="Try for free"/>  
             </div>
-    </div>
+        </div>
     )
 }
 export default NavBar
