@@ -18,10 +18,10 @@ const NavBar = () =>{
             </div>
 
             <div className={style.btn}>
-                <GhostButton text="Log in" style={{color:"blue"}} />
+                <GhostButton text="Log in"/>
                 <FilledButton text="Try for free"/>  
             </div>
         </div>
-    )
+    );
 }
-export default NavBar
+export default NavBar;

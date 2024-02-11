@@ -1,10 +1,13 @@
 import React from 'react'
+import style from './index.module.css'
 import '../FilledButton'
 const filledButton = ({text, color}) => {
     return (
-        <button className="btn">
-        {text}
+        <div>
+        <button className={style.btn} style={{background:color}}>
+            {text}
         </button>
-    )
+        </div>
+    );
 }
-export default filledButton
+export default filledButton;

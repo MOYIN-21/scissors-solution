@@ -1,11 +1,15 @@
 import React from "react"
+import './index.module.css'
 import '../GhostButton'
+import style from './index.module.css'
 const GhostButton = ({text, color}) => {
     return (
-        <button className="btn" color={{color}}>
+        <div>
+        <button className={style.btn} style={{background:color}}>
             {text}
         </button>
-    )
+        </div>
+    );
 }
 
-export default GhostButton
+export default GhostButton;
