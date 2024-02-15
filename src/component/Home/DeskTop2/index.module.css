@@ -1,0 +1,102 @@
+.mainContainer{
+    padding-top: 100px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.advert{
+    text-align: center;
+    justify-content: center;
+}
+
+.advertGroup{
+width: 1088px;
+height: 557px;
+padding-top: 140px;
+border-radius: 12px;
+align-self: center;
+display: flex;
+}
+
+
+.basicDiv{
+width: 379px;
+height: 455px;
+padding: 15px;
+border: 1px solid;
+border-color: blue;
+border-radius: 12px;
+
+}
+
+.gbogbo{
+    display: flex;
+    gap: 8px;
+}
+
+.categories{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.personal{
+    width: 550px;
+    height: 627px;
+position: relative;
+top: -65px;
+border-radius: 12px;
+background-color:#1E3448;
+}
+
+.cate{
+
+    padding-left: 60px;
+    padding-top: 10px;
+    background-color: #1E3448;
+
+    >p, h1{
+        background-color:#1E3448 ;
+        color: #fff;
+    }
+}
+
+.gbogbo1{
+    display: flex;
+    gap: 8px;
+    background-color:#1E3448 ;
+
+    >p{
+        background-color:#1E3448 ;
+        color: #fff;
+    } 
+
+    >img{
+        background-color: #1E3448;
+    }
+}
+
+.team{
+    width: 379px;
+    height: 455px;
+    padding: 15px;
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 12px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    align-self: center;
+}
+
+    
+
+
+
+
+
+
+
+

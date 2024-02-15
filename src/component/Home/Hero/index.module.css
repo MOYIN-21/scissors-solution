@@ -1,0 +1,73 @@
+.mainContainer{
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font: Gilroy-Bold;
+    line-height: 96px;
+    gap: 30px;
+}
+
+.content{
+    margin-top: -130px;
+
+}
+
+
+.btn{
+    display: flex;
+    width: Hug(292px);
+    gap:56px;
+    height: Hug(44px);
+    border-radius: 22px;
+    justify-content: center;
+}
+
+.vectorSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: center;
+
+}
+
+.vectorImage{
+    margin-right: -100px;
+}
+
+.innerVectorSect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 30px;
+    background-color: #fff;
+    /* margin-left: -75; */
+    height: 120px;
+    padding: 50px 60px;
+}
+
+.heroCenter{
+    display: flex;
+    /* gap: -70px; */
+    justify-content: center;
+    margin-top: 30px;
+}
+.rectangle{
+    display: flex;
+    margin-top: 80px;
+    gap: -100px;
+    justify-content: absolute;
+}
+
+.Rectangle{
+    position: absolute;
+}
+
+.ellipse{
+    z-index: 5;
+    margin-top: 18px;
+}
+
+
+

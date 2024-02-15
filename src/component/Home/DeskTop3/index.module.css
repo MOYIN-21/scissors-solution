@@ -1,0 +1,106 @@
+.mainContainer{
+    align-content: center;
+    display: flex;
+    height: 523px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    background-image: url("../../../assets/DeskTop3Img.jpeg") ;
+}
+
+.trimUrl{
+    width: 476px;
+    height: 355px;
+    display: flex;
+    justify-content: center; 
+    align-self: center; 
+    position: absolute;
+    border-radius: 12px;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inputCollector{
+width: 178;
+height: Hug 127px;
+margin-left:42px;
+position: relative;
+top: -10px;
+
+}
+
+.ipt{
+    top: 400px;
+}
+
+.inputCollector input{
+width: 392px;
+height: 55px;
+border-radius: 12px;
+border: 1px solid;
+border-color: blue;
+display: flex;
+color: blue;
+background: transparent;
+outline: none;
+
+}
+
+
+::placeholder{
+    text-indent: 42px;
+    color: blue;
+}
+
+.inputCollector2{
+    width: 392px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left:42px;
+    /* position: relative; */
+    top: -10px;
+
+}
+
+.domainDropDown{
+    width: 202px;
+    height: 55px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: blue;
+    display: flex;
+    color: blue;
+    background: transparent;
+    outline: none;
+    }
+
+.inputCollector2 input{
+    width: 178px;
+height: 55px;
+border-radius: 12px;
+border: 1px solid;
+border-color: blue;
+display: flex;
+color: blue;
+background: transparent;
+outline: none;        
+}
+
+.buttonAndContent{
+    display: flex;
+    /* position: relative; */
+    margin-bottom: 80px;
+}
+
+
+.btn{
+    width: 392px;
+padding: 12px, 24px, 12px, 24px;
+border-radius: 100px;
+gap: 10px;
+
+}
+

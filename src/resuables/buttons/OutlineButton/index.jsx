@@ -1,10 +1,11 @@
 import React from "react"
 import '../OutlineButton'
+import style from './index.module.css'
 const OutlineButton =({text, color}) => {
    return(
-    <div className="'btn">
-         {text}
-    </div>
+      <button className={style.btn} style={{background:color}}>
+      {text}
+      </button>
    );
 }
-export default OutlineButton
+export default OutlineButton;

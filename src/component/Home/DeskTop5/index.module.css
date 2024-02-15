@@ -1,0 +1,9 @@
+.mainContainer{
+    padding: 60px;
+    background-image: url("../../../assets/DeskTop5Img.jpeg");
+}
+
+.text{
+    align-self: center;
+    text-align: center;
+}

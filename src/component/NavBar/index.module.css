@@ -1,0 +1,17 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 12px;
+}
+
+.midsection{
+    display: flex;
+    gap: 41px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

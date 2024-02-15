@@ -1,0 +1,19 @@
+.mainContainer{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .holder{
+      width: 792px;
+  height: 955px;
+  top: 43px;
+  left: 324px;
+  gap: 64px;
+  margin: 0 auto;
+  
+  }
+  .header{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }

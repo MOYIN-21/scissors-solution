@@ -1,0 +1,47 @@
+.mainContainer{
+    height: 800px
+  }
+
+  .all{
+    display: flex;
+    gap: 200px;
+  }
+  
+
+  .symbol{
+    width: 200px;
+    height: 90px;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+  gap: 40px;
+  display: flex;
+
+}
+
+.second{
+  gap: 40px;
+  display: flex;
+}
+
+
+.footerContent{
+  flex-direction: row;
+  display: block;
+  gap: 50px;
+
+}
+  .anotherDiv{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    margin-left: 600px;
+  }
+
+
+ 
